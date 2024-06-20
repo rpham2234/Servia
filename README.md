@@ -11,4 +11,5 @@ interaction between the student and the AI robot system, allowing the robot to o
 
 **servia_opencv**: A computer vision AI model that determines whether or not students are being productive or distracted.
 Note that the actual algorithm is not in this repository, this is just the client side of things and it consists of a 
-Python script that takes in video feeds and sends it to Roboflow for processing. 
+Python script that takes in video feeds and sends it to Roboflow for processing. This is the "Human activity recognition" 
+part of the Decision making algorithm
