@@ -6,9 +6,9 @@ Figure 2) that receives a lot of foot traffic. It will use various machine learn
 # What it consists of:
 There are two folders in this repository:
 
-**servia_talking: A ChatGPT powered Python script that allows the robot to hold a conversation and serves as a medium of
+**servia_talking**: A ChatGPT powered Python script that allows the robot to hold a conversation and serves as a medium of
 interaction between the student and the AI robot system, allowing the robot to offer help and guidance where necessary
 
-**servia_opencv: A computer vision AI model that determines whether or not students are being productive or distracted.
+**servia_opencv**: A computer vision AI model that determines whether or not students are being productive or distracted.
 Note that the actual algorithm is not in this repository, this is just the client side of things and it consists of a 
 Python script that takes in video feeds and sends it to Roboflow for processing. 
