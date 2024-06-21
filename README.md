@@ -4,7 +4,7 @@ from what they are accustomed to in high school. They are expected to be more in
 Figure 2) that receives a lot of foot traffic. It will use various machine learning models, from image processing to ChatGPT, as well as the Google Calendar API to accomplish its various tasks, from answering student questions to helping students stay on track to complete their assignments. To clarify, students will have the option to give Servia their calendar to help keep them on track, however, this is not required to work with Servia. It will also refer to human sources of support if needed. 
 
 # What it consists of:
-There are two folders in this repository:
+There are four folders in this repository:
 
 **servia_talking**: A ChatGPT powered Python script that allows the robot to hold a conversation and serves as a medium of
 interaction between the student and the AI robot system, allowing the robot to offer help and guidance where necessary
@@ -13,3 +13,7 @@ interaction between the student and the AI robot system, allowing the robot to o
 Note that the actual algorithm is not in this repository, this is just the client side of things and it consists of a 
 Python script that takes in video feeds and sends it to Roboflow for processing. This is the "Human activity recognition" 
 part of the Decision making algorithm
+
+**servia_calendar**: Contains all files pertaining to the Google Calendar API
+
+**servia_decision**: Where it all comes together. Decision making algorithm will take in input from other three folders to, well make decisions
