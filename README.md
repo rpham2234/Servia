@@ -10,10 +10,8 @@ There are four folders in this repository:
 interaction between the student and the AI robot system, allowing the robot to offer help and guidance where necessary
 
 **servia_opencv**: A computer vision AI model that determines whether or not students are being productive or distracted.
-Note that the actual algorithm is not in this repository, this is just the client side of things and it consists of a 
-Python script that takes in video feeds and sends it to Roboflow for processing. This is the "Human activity recognition" 
-part of the Decision making algorithm
+It is based on ResNet 18, though it has been retrained with the Kaggle Yawn Eye Dataset
 
-**servia_calendar**: Contains all files pertaining to the Google Calendar API
+**servia_calendar**: Contains all files pertaining to the Google Calendar API. The python file is used to fetch deadlines
 
 **servia_decision**: Where it all comes together. Decision making algorithm will take in input from other three folders to, well make decisions
